@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1>Rock Paper Scissors</h1>
+	</header>
+
+	<div class="score-board">
+		<div id="player-label" class="badge">player</div>
+		<div id="computer-label" class="badge">computer</div>
+		<span id="player-score">0</span>:<span id="computer-score">0</span>
+	</div>
+
+	<div class="result">
+		<p>Player wins!</p>
+	</div>
+
+	<div class="choices">
+		<div class="choice" id="rock">
+			<img src="rock.png" width=132 alt="">
+		</div>
+		<div class="choice" id="paper">
+			<img src="paper.png" width=150 alt="">
+		</div>
+		<div class="choice" id="scissors">
+			<img src="scissors.png" width=150 alt="">
+		</div>
+
+		<p id="action-message">Choose your hand!</p>
+	</div>
+  <script src="app.js"></script>
+</body>
+</html>
