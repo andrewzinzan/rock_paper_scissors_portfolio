@@ -1,0 +1,1 @@
+This project will be an attempt at making a "Rock, Paper, Scissors" game
